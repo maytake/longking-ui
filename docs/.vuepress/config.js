@@ -9,6 +9,6 @@ module.exports = {
     }, {
       text: 'Npm', link: 'https://www.npmjs.com/package/longking-ui'
     }],
-    sidebar: ["/", "/componentsDocs/card"],
+    sidebar: ["/", "/componentsDocs/card", "/componentsDocs/loading"],
   },
 };

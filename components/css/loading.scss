@@ -1,0 +1,37 @@
+// 定义动画 控制 loading旋转
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.mask {
+  // position: fixed;
+  // left:0;
+  // right:0;
+  // top:0;
+  // bottom:0;
+  background-color: rgba(0, 0, 0, .7);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .loading {
+    width: 30px;
+    height: 30px;
+    border: 6px solid rgb(219, 140, 13);
+    border-radius: 21px;
+    border-left-color: transparent;
+    animation: rotate 500ms infinite;
+  }
+
+  .text {
+    margin-top: 8px;
+  }
+}
