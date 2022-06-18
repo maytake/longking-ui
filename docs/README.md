@@ -18,4 +18,8 @@ Vue.use(MUI);
   import 'longking-ui/dist/css/demo.css';
   import { Demo } from 'longking-ui';
   Vue.use(Demo)
+// 按需引入
+  import 'longking-ui/dist/css/card.css';
+  import Card from '../components/lib/card/index'; 
+  Vue.use(Card)
 ```
